@@ -19,7 +19,7 @@ app.use(cors())
  
 
 // Animal Routes
-app.use("/api/animals", require("./routes/Animal"));
+app.use("/api/animals", require("./routes/animal"));
 app.use("/api/categories", require("./routes/categories"));
 
 // Start the server
