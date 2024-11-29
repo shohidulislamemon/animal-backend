@@ -12,7 +12,7 @@ router.post("/add", validateAnimal, addAnimal);
 
 
 // Route to get all animals
-router.get("/", getAllAnimals);
+router.get("/animals", getAllAnimals);
 
 // Route to get animals by category
 router.get("/category/:category", getAnimalsByCategory);
